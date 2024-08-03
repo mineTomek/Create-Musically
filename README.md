@@ -1,34 +1,18 @@
-# Create Fabric Addon Template
+# Create: Musically
 
-This template mod comes pre-configured for developing an addon mod for Create on Fabric.
+This [Create mod](https://modrinth.com/mod/create-fabric) addon allows you to create custom music discs with your own recordings and adds blocks for making more sounds.
 
+This addon has been made using the [Create Fabric Addon Template](https://github.com/Fabricators-of-Create/create-fabric-addon-template).
 
-## Setup
+## Features (only *italics* are implemented)
 
-This template is an extension of the base [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod).
-Setup is mostly the same.
+### Blocks
 
-Additionally, set `recipe_viewer` in [gradle.properties](gradle.properties). Remember to remove unused
-example code. Make sure versions are up-to-date.
+- Music disc recorder
+- Audio Synthesizer
 
-When you publish your mod, you should use jars provided by GitHub Actions. These jars will have
-build number metadata and will be compressed by the Machete plugin.
+### Items
 
-## Features
-- Access to Create and all of its dependencies
-- Mojang Mappings base, with Quilt Mappings and Parchment providing Javadoc and parameters
-- VineFlower decompiler for high quality Minecraft sources: `gradlew genSourcesWithVineflower`
-- GitHub Actions automatic build workflow
-- Machete Gradle plugin to shrink jar file sizes
-- Developer QOL: Mod Menu, LazyDFU, recipe viewers
-
-## Other Templates
-- [Multi-loader template](https://github.com/Fabricators-of-Create/create-multiloader-addon-template)
-- [Forge-only template](https://github.com/kotakotik22/CreateAddonTemplate)
-
-## Help
-Questions? Join us in the #devchat channel of the [Create Discord](https://discord.com/invite/hmaD7Se).
-
-## License
-
-This template is available under the CC0 license. Feel free to do as you wish with it.
+- Empty music disc
+- Written music disc
+- Disc decorator (future versions)

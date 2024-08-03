@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "musically",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create: Musically",
+  "description": "Allows recording custom music disc",
   "authors": [
-    "Me!"
+    "mineTomek"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/musically/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "com.minetomek.musically.Musically"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "musically.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
