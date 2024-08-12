@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "activated=false,full=false": {
+            "model": "musically:block/disc_recorder_off_empty"
+        },
+        "activated=false,full=true": {
+            "model": "musically:block/disc_recorder_off_full"
+        },
+        "activated=true,full=true": {
+            "model": "musically:block/disc_recorder_on_full"
+        }
+    }
+}

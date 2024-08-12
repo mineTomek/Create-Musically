@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+        {
+            "item": "minecraft:dried_kelp"
+        }
+    ],
+    "results": [
+        {
+            "item": "musically:kelp_sheet"
+        }
+    ]
+}

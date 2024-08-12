@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "musically:block/disc_recorder_bottom",
+		"up": "musically:block/disc_recorder_top_empty",
+		"east": "musically:block/disc_recorder_side_off",
+		"north": "musically:block/disc_recorder_side_off",
+		"south": "musically:block/disc_recorder_side_off",
+		"west": "musically:block/disc_recorder_side_off",
+		"particle": "musically:block/disc_recorder_top_empty"
+	}
+}

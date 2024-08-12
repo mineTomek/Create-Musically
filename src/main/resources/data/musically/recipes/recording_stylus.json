@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#ID"
+    ],
+    "key": {
+        "#": {
+            "item": "create:electron_tube"
+        },
+        "I": {
+            "item": "create:iron_sheet"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "musically:recording_stylus",
+        "count": 1
+    }
+}

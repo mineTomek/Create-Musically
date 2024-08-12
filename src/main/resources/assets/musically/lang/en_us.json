@@ -1,0 +1,11 @@
+{
+    "itemGroup.musically": "Create: Musically",
+    
+    "item.musically.recording_stylus": "Recording Stylus",
+    "item.musically.kelp_sheet": "Kelp Sheet",
+    "item.musically.microphone": "Microphone",
+    "item.musically.empty_disc": "Empty Disc",
+    "item.musically.written_disc": "Written Disc",
+
+    "block.musically.disc_recorder": "Disc Recorder"
+}

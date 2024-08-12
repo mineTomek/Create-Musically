@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "BRB",
+        "MSM"
+    ],
+    "key": {
+        "#": {
+            "item": "create:electron_tube"
+        },
+        "B": {
+            "item": "create:brass_casing"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "M": {
+            "item": "musically:microphone"
+        },
+        "S": {
+            "item": "musically:recording_stylus"
+        }
+    },
+    "result": {
+        "item": "musically:disc_recorder",
+        "count": 1
+    }
+}

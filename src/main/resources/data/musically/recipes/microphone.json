@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "_E_"
+    ],
+    "key": {
+        "#": {
+            "item": "create:andesite_alloy"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        },
+        "_": {
+            "item": "create:copper_sheet"
+        },
+        "E": {
+            "item": "create:electron_tube"
+        }
+    },
+    "result": {
+        "item": "musically:microphone",
+        "count": 2
+    }
+}
