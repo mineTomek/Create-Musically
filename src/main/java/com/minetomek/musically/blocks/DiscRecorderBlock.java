@@ -1,7 +1,9 @@
 package com.minetomek.musically.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
@@ -13,7 +15,7 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class DiscRecorderBlock extends Block {
+public class DiscRecorderBlock extends Block implements BlockEntityProvider {
     public static final BooleanProperty ACTIVATED = BooleanProperty.of("activated");
     public static final BooleanProperty FULL = BooleanProperty.of("full");
 
@@ -27,6 +29,11 @@ public class DiscRecorderBlock extends Block {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(ACTIVATED);
         builder.add(FULL);
+    }
+
+    @Override
+    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+        return new DiscRecorderBlockEntity(pos, state);
     }
 
     @Override
